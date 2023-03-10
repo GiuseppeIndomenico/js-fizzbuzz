@@ -6,10 +6,34 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.*/
 
 
 for (let i = 1 ; i<= 100; i++){
+    
+
+
+    if ( i % 3 === 0  ) {
+
+       
+        
+        document.getElementById("cont-box").innerHTML +=
+
+        `
+        <div class="box d-flex align-items-center justify-content-center ">
+        
+        fizz
+        
+        </div>
+    
+        `
+
+
+        console.log (i)
+        
+    }
+
+    else
 
 
 
-    console.log (i)
+   console.log (i)
     document.getElementById("cont-box").innerHTML +=
 
     `
