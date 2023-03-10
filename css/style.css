@@ -1,5 +1,14 @@
 .box {
-    width: 100px;
-    height: 100px;
+    margin: 5px;
+    width: calc(10% - 10px);
+    height: 10%;
     background-color: white;
+}
+
+#cont-box{
+
+    width: 1200px;
+    height: 100vh;
+
+
 }
