@@ -7,7 +7,27 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.*/
 
 for (let i = 1 ; i<= 100; i++){
 
-    if ( i % 5 === 0 && i % 3 === 0 ) {
+    if ( i % 92 === 0) {
+
+       
+        
+        document.getElementById("cont-box").innerHTML +=
+
+        `
+        <div class="box d-flex align-items-center justify-content-center bg-danger fw-bold ">
+        
+        <img class="img-fluid" src="./img/mobile-logo.png" alt="">
+        
+        </div>
+    
+        `
+
+
+        
+        
+    }
+
+   else if ( i % 5 === 0 && i % 3 === 0 ) {
 
        
         

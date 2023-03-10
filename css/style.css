@@ -2,7 +2,7 @@
     margin: 5px;
     width: calc(10% - 10px);
     height: 10%;
-    background-color: white;
+    
 }
 
 #cont-box{
@@ -12,3 +12,7 @@
 
 
 }
+
+.fizz{background-color:#0cd6a1;
+}
+
